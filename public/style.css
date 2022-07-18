@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top {
+    width: 100%;
+    height: 55px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #DBDBDB;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.menu {
+    width: 930.87px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile {
+    display: none;
+}
+
+.logos {
+    width: 142.25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-instagram {
+    width: 19.25px;
+    height: 19.25px;
+    padding-right: 10px;
+    border-right: 1px solid #DBDBDB;
+}
+
+.logo {
+    width: 103px;
+    height: 29px;
+    margin-left: 10px;
+}
+
+.search-box {
+    width: 215px;
+    height: 26px;
+    background-color: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #979797;
+}
+
+.right-menu {
+    width: 143.18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dm {
+    width: 17.87px;
+    height: 17.87px;
+}
+
+.discover {
+    width: 16.5px;
+    height: 16.5px;
+}
+
+.activity {
+    width: 16.5px;
+    height: 15.13px;
+}
+
+.profile {
+    width: 22px;
+    height: 16.13px;
+}
+
+.content {
+    margin-top: 54px;
+    display: flex;
+    justify-content: center;
+}
+
+.stories {
+    width: 614px;
+    height: 118px;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    padding-left: 4px;
+    margin-top: 34px;
+    margin-bottom: 24px;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.story {
+    margin-left: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.story-border {
+    width: 66px;
+    height: 66px;
+}
+
+.gag {
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: auto;
+}
+
+.barked {
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: auto;
+}
+
+.filomoderna {
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: auto;
+}
+
+
+.memeriagourmet {
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: auto;
+}
+
+
+.meowed {
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: auto;
+}
+
+
+.strangeplanet {
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: auto;
+}
+
+
+.respondeai {
+    width: 56px;
+    position: absolute;
+    top: 5px;
+    left: auto;
+}
+
+
+.corinthians {
+    width: 66px;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    clip-path: circle(45%);
+}
+
+h6 {
+    font-size: 12px;
+}
+
+.arrow {
+    width: 26px;
+    height: 26px;
+    color: rgba(255, 255, 255,1);
+    position: absolute;
+    top: 46px;
+    right: 9px;
+}
+
+.post {
+    width: 614px;
+    height: 749px;
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+
+.last {
+    margin-bottom: 0;
+}
+
+.post-top {
+    height: 61px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 17px;
+    box-sizing: border-box;
+}
+
+.post-profile {
+    display: flex;
+    align-items: center;
+}
+
+.post-img {
+    width: 100%;
+    height: 81.7%;
+}
+
+.vitor {
+    object-fit: cover;
+}
+
+.profile-pic {
+    width: 32px;
+    margin-right: 15px;
+    border-top: 1px solid #EFEFEF;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.post-bottom {
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icons-left {
+    width: 80.18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment {
+    width: 17.88;
+    height: 17.88;
+}
+
+.like {
+    width: 18px;
+    height: 18px;
+}
+
+.liked {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.liked-profile {
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.sidebar {
+    height: fit-content;
+    position: sticky;
+    top: 111px;
+}
+
+.my-profile {
+    width: 255px;
+    height: 56px;
+    margin-left: 29px;
+    display: flex;
+    align-items: center;
+}
+
+.fy {
+    width: 292px;
+    height: 256px;
+    margin-top: 24px;
+    margin-left: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.seeall-follow {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.suggested-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.my-profile-pic {
+    width: 56px;
+    border-radius: 50%;
+    margin-right: 17px;
+}
+
+.fy-user-pic {
+    width: 32px;
+    margin-right: 11px;
+}
+
+.user {
+    height: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.light-text {
+    color: #8e8e8e;
+}
+
+.follow {
+    color: #139EF2;
+}
+
+.about {
+    width: 300px;
+    height: 42px;
+    margin-top: 33px;
+    margin-left: 30px;
+    font-size: 11px;
+    line-height: 12.89px;
+    color: #C7C7C7;
+}
+
+.copyright {
+    margin-top: 18px;
+    margin-left: 30px;
+    font-size: 11px;
+    line-height: 12.89px;
+    color: #C7C7C7;
+}
+
+.bottom-menu {
+    display: none;
+}
+
+@media (max-width: 935px) {
+    .sidebar {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+        padding: 0 16px 0 20px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 614px) {
+    .menu {
+        display: none;
+    }
+
+    .top, .mobile {
+        width: 100%;
+        height: 54px;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        background-color: white;
+        border-bottom: 1px solid #DBDBDB;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    .logo-instagram {
+        border: none;
+    }
+    
+    .feed {
+        width: 100%;
+    }
+
+    .stories {
+        width: 100%;
+        height: 121px;
+        border: none;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .post {
+        width: 100%;
+        height: auto;
+    }
+
+    .post-top {
+        width: 100%;
+    }
+
+    .post-bottom {
+        width: 100%;
+    }
+
+    .bottom-menu {
+        width: 100%;
+        height: 54px;
+        background-color: white;
+        border: 1px solid #dbdbdb;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding-right: 0 20px 0 19px;
+        box-sizing: border-box;
+    }
+
+    .home {
+        width: 22px;
+        height: 22px;
+        margin-left: 19px;
+    }
+
+    .search {
+        width: 22px;
+        height: 22px;
+    }
+
+    .add {
+        width: 22px;
+        height: 22px;
+    }
+
+    .activity {
+        width: 22px;
+        height: 22px;
+    }
+
+    .profile {
+        height: 22px;
+        margin-right: 20px;
+    }
+
+    .last {
+        margin-bottom: 54px;
+    }
+}
