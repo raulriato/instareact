@@ -269,9 +269,15 @@ strong {
     height: 17.88;
 }
 
-.like {
+ion-icon[name='heart-outline'] {
     width: 18px;
     height: 18px;
+}
+
+ion-icon[name='heart'] {
+    width: 18px;
+    height: 18px;
+    fill: red;
 }
 
 .liked {
