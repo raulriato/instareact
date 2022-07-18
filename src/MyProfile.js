@@ -1,10 +1,10 @@
-export default function MyProfile(){
+export default function MyProfile(props){
     return (
         <div class="my-profile">
-            <img src="./Images/Raul.jpg" class="my-profile-pic" alt="" />
+            <img src={props.src} class="my-profile-pic" alt="" />
             <div class="user">
-                <h5><strong>raulriato</strong></h5>
-                <h5 class="light-text">Raul Riato Silva</h5>
+                <h5><strong>{props.user}</strong></h5>
+                <h5 class="light-text">{props.name}</h5>
             </div>
         </div>
     )

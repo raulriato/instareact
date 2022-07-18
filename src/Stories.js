@@ -1,17 +1,40 @@
 import Story from "./Story";
 
-export default function Stories(){
+export default function Stories() {
+    const stories = [{
+        profile: '9gag',
+        class: 'gag'
+    }, {
+        profile: 'barked',
+        class: 'barked'
+    }, {
+        profile: 'filomoderna',
+        class: 'filomoderna'
+    }, {
+        profile: 'memeriagourmet',
+        class: 'memeriagourmet'
+    }, {
+        profile: 'meowed',
+        class: 'meowed'
+    }, {
+        profile: 'respondeai',
+        class: 'respondeai'
+    }, {
+        profile: 'strangeplanet',
+        class: 'strangeplanet'
+    }];
+
     return (
         <div class="stories">
-            <Story src="./Images/9gag 1.png" class="gag" profile="9gag" />
-            <Story src="./Images/barked 1.png" class="barked" profile="barked" />
-            <Story src="./Images/filomoderna 1.png" class="filomoderna" profile="filomoderna" />
-            <Story src="./Images/memeriagourmet 1.png" class="memeriagourmet" profile="memeria..." />
-            <Story src="./Images/meowed 1.png" class="meowed" profile="meowed" />
-            <Story src="./Images/nathanwpylestrangeplanet 1.png" class="strangeplanet" profile="nathanwpy..." />
-            <Story src="./Images/respondeai 1.png" class="respondeai" profile="respondeai" />
-            <Story src="./Images/corinthians.jpeg" class="corinthians" profile="corinthians" />
+            {stories.map(story => (
+                <div class="story">
+                    <img src="./Images/stories_background.jpg" class="story-border" alt="" />
+                    <img src={`./Images/${story.profile} 1.png`} class={story.class} alt="" />
+                    <h6>{story.profile}</h6>
+                </div>))}
+            <Story src="./Images/corinthians 1.jpeg" class="corinthians" profile="corinthians" />
             <ion-icon name="chevron-forward-circle-sharp" class="arrow"></ion-icon>
         </div>
     )
 }
+
